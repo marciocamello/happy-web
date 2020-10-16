@@ -34,7 +34,7 @@ function OrphanagesMap() {
         api.get('orphanages')
             .then(({ data }) => {
                 setOrphanages(data)
-            })
+            });
     }, []);
 
     return (
